@@ -1,0 +1,23 @@
+{
+    "name": "dmcz/apple-app-store",
+    "description": "Apple App Store Services API library.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dmcz\\AppleAppStore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dmcz",
+            "email": "751662789@163.com"
+        }
+    ],
+    "require": {
+        "lcobucci/jwt": "^5.4",
+        "guzzlehttp/guzzle": "^7.9",
+        "nesbot/carbon": "^3.8",
+        "phpseclib/phpseclib": "^3.0"
+    }
+}
